@@ -1,0 +1,3310 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 3, 2023 06:36:28 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">InBoundReturn scenario check</p>
+            <p class="text-sm">
+              <span>6:36:29 AM</span> / <span>00:00:10:618</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">InBoundReturn scenario check</h5>
+<span class='badge badge-success'>04.03.2023 6:36:29 AM</span>
+<span class='badge badge-danger'>04.03.2023 6:36:40 AM</span>
+<span class='badge badge-default'>00:00:10:618</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>IR001</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InBoundReturnStepDef.user_click_on_inboundreturn()">
+                <span>When user click on InBoundReturn</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InBoundReturnStepDef.user_enter_amount_as_something_and_something(java.lang.String,java.lang.String)">
+                <span>And user enter RBamount as "20.00" and "5000.00"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "100" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>IR002</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InBoundReturnStepDef.user_click_on_inboundreturn()">
+                <span>When user click on InBoundReturn</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InBoundReturnStepDef.user_enter_amount_as_something_and_something(java.lang.String,java.lang.String)">
+                <span>And user enter RBamount as "002000" and "00500000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_nevigate_back_to_inreturn_cashletter_page()">
+                <span>And user nevigate to back page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">InReturn Cashletters scenario check</p>
+            <p class="text-sm">
+              <span>6:36:40 AM</span> / <span>00:02:25:907</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">InReturn Cashletters scenario check</h5>
+<span class='badge badge-success'>04.03.2023 6:36:40 AM</span>
+<span class='badge badge-danger'>04.03.2023 6:39:06 AM</span>
+<span class='badge badge-default'>00:02:25:907</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>IC001</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.popup_alert_check_something(java.lang.String)">
+                <span>Then popup alert check "Process Date is required for all searches."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>IC002</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as " "</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "50" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>IC003</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "10"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "10" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>IC004 IC005</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "50"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "50" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_nevigate_back_to_inreturn_cashletter_page()">
+                <span>And user nevigate to back page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_amount_as_something_and_something(java.lang.String,java.lang.String)">
+                <span>And user enter amount as "500.00" and ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "1" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="103"><span class="badge log pass-bg mr-2">Pass</span>IC0033</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "50"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "50" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.verify_result_list_is_scrollable()">
+                <span>And verify result list is scrollable</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>IC0034</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "50"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.verify_coloum_heading_should_scroll_with_the_items_by_pages()">
+                <span>Then verify coloum heading should scroll with the items by pages</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log fail-bg mr-2">Fail</span>IC0035</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "50"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinations.InreturnCAshlettrsStepDef.check_the_additional_buttons_available_outside_the_result_screen()">
+                <span>Then Check the additional buttons available outside the result screen</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidArgumentException: invalid argument: uniqueContextId not found
+  (Session info: chrome=109.0.5414.129)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [608147f32bde1fb960441b87727d1c93, findElements {using=xpath, value=//tr[@class="topbody"]//tr[14]/td}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.129, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\F3K8U4L\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 109.0.5414.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 608147f32bde1fb960441b87727d1c93
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at pageObjects.InreturnCashLattersPage.checkbutton(InreturnCashLattersPage.java:118)
+	at StepDefinations.InreturnCAshlettrsStepDef.check_the_additional_buttons_available_outside_the_result_screen(InreturnCAshlettrsStepDef.java:113)
+	at ?.Check the additional buttons available outside the result screen(file:///F:/SumitWorkspace_new/Cucumber_ATF/src/test/resources/features/InReturnCashlettrs.feature:57)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="153"><span class="badge log pass-bg mr-2">Pass</span>IC0035</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "200"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "10/23/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.verify_selected_item_remain_highlighted_as_user_move_from_view_to_view()">
+                <span>Then verify selected item remain highlighted as user move from view to view</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="169"><span class="badge log pass-bg mr-2">Pass</span>IC038</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_inreturncashletters()">
+                <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_date_from_something_to_something(java.lang.String,java.lang.String)">
+                <span>When user enter process date from "10/23/2008" to "10/24/2008"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_nevigate_back_to_inreturn_cashletter_page()">
+                <span>And user nevigate to back page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.opertaor_field_changes_to_something(java.lang.String)">
+                <span>Then opertaor field changes to "range"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="185"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="186"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="200"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008/10/23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="214"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008.10.23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="228"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008 10 23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="242"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008 Oct 23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="256"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="270"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="284"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="298"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="312"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="326"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10/23/08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="340"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="354"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="368"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="382"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="396"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="410"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10/23/2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="424"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="438"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="452"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="466"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="480"><span class="badge log pass-bg mr-2">Pass</span>IC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on InreturnCashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="494"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Incoming scenario check</p>
+            <p class="text-sm">
+              <span>6:39:06 AM</span> / <span>00:00:31:802</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Incoming scenario check</h5>
+<span class='badge badge-success'>04.03.2023 6:39:06 AM</span>
+<span class='badge badge-danger'>04.03.2023 6:39:37 AM</span>
+<span class='badge badge-default'>00:00:31:802</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=494</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="495"><span class="badge log pass-bg mr-2">Pass</span>INC001</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_popup_alert_message_as_something(java.lang.String)">
+                <span>Then verify popup alert message as "Process Date is required for all searches."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="507"><span class="badge log pass-bg mr-2">Pass</span>INC002</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_process_date()">
+                <span>And user enter process date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enetr_account_number_details()">
+                <span>And user enetr Account number details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enetrs_ammount_details()">
+                <span>And user enetrs Ammount details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "56" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="525"><span class="badge log pass-bg mr-2">Pass</span>INC003</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_process_date()">
+                <span>And user enter process date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_differance_amount_details()">
+                <span>And user enter Differance Amount details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "100" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="541"><span class="badge log pass-bg mr-2">Pass</span>INC004</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_process_date()">
+                <span>And user enter process date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_sequence_number_details()">
+                <span>And user enter sequence number details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "72" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="557"><span class="badge log pass-bg mr-2">Pass</span>INC005</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_process_date()">
+                <span>And user enter process date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_checkno_details()">
+                <span>And user enter checkno details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "26" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="573"><span class="badge log pass-bg mr-2">Pass</span>INC007</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_incomming_field()">
+                <span>When user click on incoming field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_process_date()">
+                <span>And user enter process date</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_enter_routinetransite_no_from_something_to_something(java.lang.String,java.lang.String)">
+                <span>And user enter routinetransite no from "20742294" to "20742302"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_operator_field_changes_to_something(java.lang.String)">
+                <span>And verify operator field changes to "range"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "30" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="591"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Outbond return Cashletters</p>
+            <p class="text-sm">
+              <span>6:39:37 AM</span> / <span>00:01:58:964</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Outbond return Cashletters</h5>
+<span class='badge badge-success'>04.03.2023 6:39:37 AM</span>
+<span class='badge badge-danger'>04.03.2023 6:41:36 AM</span>
+<span class='badge badge-default'>00:01:58:964</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=591</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="592"><span class="badge log pass-bg mr-2">Pass</span>OC001</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_click_on_outbond_return_cashletters()">
+                <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_click_on_searchall_button()">
+                <span>And user click on searchAll button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_popup_alert_message_as_something(java.lang.String)">
+                <span>Then verify popup alert message as "Process Date is required for all searches."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="604"><span class="badge log pass-bg mr-2">Pass</span>OC002</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_click_on_outbond_return_cashletters()">
+                <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as " "</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "022306"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "2" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="620"><span class="badge log pass-bg mr-2">Pass</span>OC003</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_click_on_outbond_return_cashletters()">
+                <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "10"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "022306"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "2" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="636"><span class="badge log pass-bg mr-2">Pass</span>OC004</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_click_on_outbond_return_cashletters()">
+                <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "200"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "022306"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "2" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="652"><span class="badge log pass-bg mr-2">Pass</span>OC005</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.user_is_on_application_home_page()">
+                <span>Given user is on application home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_click_on_outbond_return_cashletters()">
+                <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_max_result_details_as_something(java.lang.String)">
+                <span>And user enter max result details as "200"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_enter_process_startdate_as_something(java.lang.String)">
+                <span>And user enter process startdate as "022306"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_nevigate_back_to_inreturn_cashletter_page()">
+                <span>And user nevigate to back page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.OutbondreturnCashlettersStep.user_enter_ob_amount_as_something_and_something(java.lang.String,java.lang.String)">
+                <span>And user enter OB Amount as "1436696.06" and ""</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.InreturnCAshlettrsStepDef.user_click_on_cashlettrs()">
+                <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.IncomingStepDef.verify_something_items_are_displyed_on_screen(java.lang.String)">
+                <span>Then verify "1" items are displyed on screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="674"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="675"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="689"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008/10/23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="703"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008.10.23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="717"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008 10 23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="731"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 2008 Oct 23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="745"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="759"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="773"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="787"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="801"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="815"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10/23/08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="829"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="843"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="857"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="871"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="885"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10-23-2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="899"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10/23/2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="913"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="927"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="941"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10 23 2008</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="955"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as 10.23.08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="969"><span class="badge log pass-bg mr-2">Pass</span>OC006 to IC0036</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on application home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user click on Outbond return Cashletters</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter startdate as Oct 23 08</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on Cashlettrs</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify auto generated date formate as 2008-10-23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user log out of application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="983"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ATF login check</p>
+            <p class="text-sm">
+              <span>6:41:36 AM</span> / <span>00:00:10:456</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ATF login check</h5>
+<span class='badge badge-success'>04.03.2023 6:41:36 AM</span>
+<span class='badge badge-danger'>04.03.2023 6:41:47 AM</span>
+<span class='badge badge-default'>00:00:10:456</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=983</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="984"><span class="badge log pass-bg mr-2">Pass</span>valid login check</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_is_on_atf_login_page()">
+                <span>Given user is on ATF login Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_enter_valid_username_as_something_and_password_something(java.lang.String,java.lang.String)">
+                <span>When user enter valid username as "manager" and password "P@ssw0rd"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_nevigate_to_home_page()">
+                <span>Then user nevigate to home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.logincheck.user_log_out_of_application()">
+                <span>And user log out of application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="994"><span class="badge log pass-bg mr-2">Pass</span>invalid user check</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="995"><span class="badge log pass-bg mr-2">Pass</span>invalid user check</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on ATF login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter Invalid username  user and password  password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then error msg occurs on login page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,003"><span class="badge log pass-bg mr-2">Pass</span>invalid user check</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user is on ATF login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enter Invalid username  username and password  user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then error msg occurs on login page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.InvalidArgumentException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.InvalidArgumentException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>06:37:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='148'>Then Check the additional buttons available outside the result screen</a>
+<div class="">
+<span class="badge badge-default">InReturn Cashletters scenario check.IC0035.Then Check the additional buttons available outside the result screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 3, 2023 06:36:28 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 3, 2023 06:41:47 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='20%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>68</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='99%'><b>430</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"InBoundReturn scenario check":10.618,"InReturn Cashletters scenario check":145.907,"Incoming scenario check":31.802,"Outbond return Cashletters":118.964,"ATF login check":10.456
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 68,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 430,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 1,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
